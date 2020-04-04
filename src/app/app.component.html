@@ -412,16 +412,19 @@
     </div>
   </div>
 
-  <!-- Terminal -->
-  <div class="terminal" [ngSwitch]="selection.value">
-      <pre *ngSwitchDefault>ng generate component xyz</pre>
-      <pre *ngSwitchCase="'material'">ng add @angular/material</pre>
-      <pre *ngSwitchCase="'pwa'">ng add @angular/pwa</pre>
-      <pre *ngSwitchCase="'dependency'">ng add _____</pre>
-      <pre *ngSwitchCase="'test'">ng test</pre>
-      <pre *ngSwitchCase="'build'">ng build --prod</pre>
-  </div>
+  <textarea highlight-js [lang]="'typescript'">
+    /* tslint:disable */
+    import { Component } from '@angular/core';
 
+    @Component({
+        selector: 'demo',
+        templateUrl: './demo.component.html',
+        styleUrls: ['./demo.component.scss']
+    })
+    export class DemoComponent {
+        switchStatus: boolean = true;
+    }
+    </textarea>
   <!-- Links -->
   <div class="card-container">
     <a class="circle-link" title="Animations" href="https://angular.io/guide/animations" target="_blank" rel="noopener">

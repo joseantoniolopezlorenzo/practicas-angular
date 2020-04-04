@@ -5,6 +5,8 @@ import { registerLocaleData } from '@angular/common';
 import localeES from '@angular/common/locales/es';
 registerLocaleData(localeES, 'es-Es');
 
+import { HighlightJsModule } from 'ngx-highlight-js';
+
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 
@@ -14,6 +16,7 @@ import { AppComponent } from './app.component';
   ],
   imports: [
     BrowserModule,
+    HighlightJsModule,
     AppRoutingModule
   ],
   providers: [],
