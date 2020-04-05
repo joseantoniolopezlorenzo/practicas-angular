@@ -1,3 +1,4 @@
+// MÓDULOS
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 
@@ -7,16 +8,18 @@ registerLocaleData(localeES, 'es-Es');
 
 import { HighlightJsModule } from 'ngx-highlight-js';
 import { AppRoutingModule } from './app-routing.module';
-
+import { BasicaModule } from './basica/basica.module';
+import { IntermediaModule } from './intermedia/intermedia.module';
+import { AvanzadaModule } from './avanzada/avanzada.module';
+import { ServiceWorkerModule } from '@angular/service-worker';
+import { environment } from '../environments/environment';
 
 // COMPONENTES
 import { AppComponent } from './app.component';
 import { IndexComponent } from './index/index.component';
 import { HeaderComponent } from './comun/header/header.component';
 import { FooterComponent } from './comun/footer/footer.component';
-import { BasicaModule } from './basica/basica.module';
-import { IntermediaModule } from './intermedia/intermedia.module';
-import { AvanzadaModule } from './avanzada/avanzada.module';
+
 
 @NgModule({
   declarations: [
@@ -32,6 +35,7 @@ import { AvanzadaModule } from './avanzada/avanzada.module';
     IntermediaModule,
     AvanzadaModule,
     AppRoutingModule,
+    ServiceWorkerModule.register('ngsw-worker.js', { enabled: environment.production }),
   ],
   providers: [],
   bootstrap: [AppComponent]
