@@ -6,18 +6,32 @@ import localeES from '@angular/common/locales/es';
 registerLocaleData(localeES, 'es-Es');
 
 import { HighlightJsModule } from 'ngx-highlight-js';
-
 import { AppRoutingModule } from './app-routing.module';
+
+
+// COMPONENTES
 import { AppComponent } from './app.component';
+import { IndexComponent } from './index/index.component';
+import { HeaderComponent } from './comun/header/header.component';
+import { FooterComponent } from './comun/footer/footer.component';
+import { BasicaModule } from './basica/basica.module';
+import { IntermediaModule } from './intermedia/intermedia.module';
+import { AvanzadaModule } from './avanzada/avanzada.module';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    IndexComponent,
+    HeaderComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,
     HighlightJsModule,
-    AppRoutingModule
+    BasicaModule,
+    IntermediaModule,
+    AvanzadaModule,
+    AppRoutingModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
