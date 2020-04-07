@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1586114600494,
+  "timestamp": 1586248214238,
   "index": "/practicas-angular/index.html",
   "assetGroups": [
     {
@@ -10,15 +10,15 @@
       "urls": [
         "/practicas-angular/favicon.ico",
         "/practicas-angular/index.html",
-        "/practicas-angular/main-es2015.84f96035c6b3043b7590.js",
-        "/practicas-angular/main-es5.84f96035c6b3043b7590.js",
+        "/practicas-angular/main-es2015.92c54413e11f0d2fba4f.js",
+        "/practicas-angular/main-es5.92c54413e11f0d2fba4f.js",
         "/practicas-angular/manifest.webmanifest",
         "/practicas-angular/polyfills-es2015.bbb42ff2e1c488ff52d5.js",
         "/practicas-angular/polyfills-es5.0e4e1968447fab48e788.js",
         "/practicas-angular/runtime-es2015.c9afb3256f2870e161de.js",
         "/practicas-angular/runtime-es5.c9afb3256f2870e161de.js",
         "/practicas-angular/scripts.e8090da0c1b5cfcab2a0.js",
-        "/practicas-angular/styles.37e7b8ec33406f16c393.css"
+        "/practicas-angular/styles.b6d8ed4b9cd11f76d1eb.css"
       ],
       "patterns": []
     },
@@ -27,6 +27,7 @@
       "installMode": "lazy",
       "updateMode": "prefetch",
       "urls": [
+        "/practicas-angular/assets/highlight/darcula.css",
         "/practicas-angular/assets/highlight/highlight.pack.js",
         "/practicas-angular/assets/icons/icon-128x128.png",
         "/practicas-angular/assets/icons/icon-144x144.png",
@@ -42,6 +43,7 @@
   ],
   "dataGroups": [],
   "hashTable": {
+    "/practicas-angular/assets/highlight/darcula.css": "e568debd82849fd7d05ccd5ae96e7022a12bd596",
     "/practicas-angular/assets/highlight/highlight.pack.js": "b472c122b7d07042a7c107c2ab032e82e24e429d",
     "/practicas-angular/assets/icons/icon-128x128.png": "dae3b6ed49bdaf4327b92531d4b5b4a5d30c7532",
     "/practicas-angular/assets/icons/icon-144x144.png": "b0bd89982e08f9bd2b642928f5391915b74799a7",
@@ -52,16 +54,16 @@
     "/practicas-angular/assets/icons/icon-72x72.png": "c457e56089a36952cd67156f9996bc4ce54a5ed9",
     "/practicas-angular/assets/icons/icon-96x96.png": "3914125a4b445bf111c5627875fc190f560daa41",
     "/practicas-angular/favicon.ico": "22f6a4a3bcaafafb0254e0f2fa4ceb89e505e8b2",
-    "/practicas-angular/index.html": "d1069593313b61bf072097b59ca43eb6c83fe322",
-    "/practicas-angular/main-es2015.84f96035c6b3043b7590.js": "b2504f80b43a49f7dc47f5dd0a7efe876b915598",
-    "/practicas-angular/main-es5.84f96035c6b3043b7590.js": "6d6fdc6d32e0938b4765741d0078b754c6c39ab4",
+    "/practicas-angular/index.html": "c6cc14b9900f96f4e935b423e135e4895aa86d9e",
+    "/practicas-angular/main-es2015.92c54413e11f0d2fba4f.js": "f698e2784c57113a13c8a593ae5466d1279d4ff6",
+    "/practicas-angular/main-es5.92c54413e11f0d2fba4f.js": "e646c4ab42e922457928674adb80df53650e645b",
     "/practicas-angular/manifest.webmanifest": "8c02b5f24d0a9fce6d685558415847ec27aa0615",
     "/practicas-angular/polyfills-es2015.bbb42ff2e1c488ff52d5.js": "72ad4ccc0a3916ae4598199447cdeadd6d380570",
     "/practicas-angular/polyfills-es5.0e4e1968447fab48e788.js": "e51a1de4f016cd689dbdbef51043dec9518c4111",
     "/practicas-angular/runtime-es2015.c9afb3256f2870e161de.js": "a9aafcf49f49145093fc831efd9b8e2f6c71bb9c",
     "/practicas-angular/runtime-es5.c9afb3256f2870e161de.js": "a9aafcf49f49145093fc831efd9b8e2f6c71bb9c",
     "/practicas-angular/scripts.e8090da0c1b5cfcab2a0.js": "e409293dad28284e193dba14c66eec68c3076717",
-    "/practicas-angular/styles.37e7b8ec33406f16c393.css": "faac30c2e0b724ba4de987b3039fe5f86cf08d21"
+    "/practicas-angular/styles.b6d8ed4b9cd11f76d1eb.css": "26293896d14b2998a411486238b5ccf31e9c9f6a"
   },
   "navigationUrls": [
     {
