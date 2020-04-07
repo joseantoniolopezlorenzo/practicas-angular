@@ -1,1 +1,32 @@
-<p>basica01 works!</p>
+<nav aria-label="breadcrumb">
+  <ol class="breadcrumb">
+    <li class="breadcrumb-item"><a routerLink="/basica">Básicas</a></li>
+    <li class="breadcrumb-item" aria-current="page">Práctica 01</li>
+  </ol>
+</nav>
+<h1>Práctica 01</h1>
+<h2>Componentes</h2>
+<textarea highlight-js [options]="{}" [lang]="'typescript'">
+
+import { Component, OnInit } from '@angular/core';
+
+@Component({
+  selector: 'app-bas01sub01',
+  template: `
+  <p>
+    Resultado
+  </p>
+  `,
+  styles: [],
+})
+export class Bas01sub01Component implements OnInit {
+
+  constructor() { }
+  ngOnInit(): void {
+  }
+}
+</textarea>
+
+<div class="border border-danger p-3">
+  <app-bas01sub01></app-bas01sub01>
+</div>
